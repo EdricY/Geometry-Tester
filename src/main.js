@@ -39,6 +39,10 @@ function getSubTriangles(triangle) {
 }
 
 const mainBtn = document.getElementById("main-btn");
-mainBtn.addEventListener("click", () => {
 
+require("image-tessellator");
+
+let it = new ImageTessellator(canvas, "https://i.imgur.com/dTwI40y.jpg")
+mainBtn.addEventListener("click", () => {
+  it.playAnimation();
 })

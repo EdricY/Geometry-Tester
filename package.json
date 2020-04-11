@@ -24,5 +24,8 @@
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "image-tessellator": "^1.0.5"
   }
 }
